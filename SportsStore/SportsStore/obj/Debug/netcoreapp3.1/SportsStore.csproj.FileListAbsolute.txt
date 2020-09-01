@@ -11,10 +11,7 @@ C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcor
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.TagHelpers.output.cache
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.RazorCoreGenerate.cache
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.RazorTargetAssemblyInfo.cache

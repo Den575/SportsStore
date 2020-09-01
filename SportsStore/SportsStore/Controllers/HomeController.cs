@@ -20,8 +20,8 @@ namespace SportsStore.Controllers
         public IActionResult Index()
         {
             User u = new User() { Name = "Denis", Age = 22};
-            db.Users.Add(u);
-            db.SaveChanges();
+            //db.Users.Add(u);
+            //db.SaveChanges();
             var users = db.Users.ToList();
             return View(db.Users.ToList());
         }
