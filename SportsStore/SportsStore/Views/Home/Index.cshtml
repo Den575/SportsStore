@@ -1,27 +1,10 @@
-﻿@model IEnumerable<User>
-<html>
-<head><title>Create User</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-    </head>
-<body>
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>ID</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(User u in Model)
-            {
-                <tr>
-                    <td>@u.Name</td>
-                    <td>@u.Age</td>
-                    <td>@u.Id</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</body>
-</html>
+﻿@model ProductsListViewModel
+@foreach (var p in Model.Products)
+{
+    <div>
+        <h3>@p.Name</h3>
+        @p.Description
+        <h4>@p.Price.ToString("c")</h4>
+    </div>
+}
+<div page-model="@Model.PagingInfo" page-action="Index"></div>

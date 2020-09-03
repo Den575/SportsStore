@@ -67,9 +67,13 @@ C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcor
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CoreCompileInputs.cache
-C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.Views.pdb
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.dll
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.pdb
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.genruntimeconfig.cache
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Castle.Windsor.dll
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CoreCompileInputs.cache
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.MvcApplicationPartsAssemblyInfo.cache

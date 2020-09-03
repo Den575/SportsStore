@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SportsStore.Models;
+using SportsStore.Models.ViewModels;
 
 namespace SportsStore.Controllers
 {
@@ -17,13 +18,25 @@ namespace SportsStore.Controllers
             db = context;
         }
 
-        public IActionResult Index()
+        public int PageSize = 4;
+
+        public IActionResult Index(int productPage = 1)
         {
-            User u = new User() { Name = "Denis", Age = 22};
-            //db.Users.Add(u);
-            //db.SaveChanges();
-            var users = db.Users.ToList();
-            return View(db.Users.ToList());
+            if (productPage<1)
+            {
+                productPage = 1;
+            }
+            return View(new ProductsListViewModel
+            {
+                Products = db.Products.OrderBy(p => p.ProductID)
+                .Skip((productPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PageInfo
+                {
+                    CurrentPage = productPage,
+                    ItemsPerPage = PageSize,
+                    TotalItems = db.Products.Count()
+                }
+            });
         }
     }
 }
