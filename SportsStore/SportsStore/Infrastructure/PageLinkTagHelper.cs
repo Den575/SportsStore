@@ -21,13 +21,16 @@ namespace SportsStore.Infrastructure
         public ViewContext ViewContext { get; set; }
         public PageInfo PageModel { get; set; }
         public string PageAction { get; set; }
+
+        [HtmlAttributeName(DictionaryAttributePrefix = "page-url-")]
+        public Dictionary<string, object> PageUrlValues { get; set; }
+         = new Dictionary<string, object>();
+
         public bool PageClassesEnabled { get; set; } = false;
         public string PageClass { get; set; }
         public string PageClassNormal { get; set; }
         public string PageClassSelected { get; set; }
-        [HtmlAttributeName(DictionaryAttributePrefix = "page-url-")]
-        public Dictionary<string, object> PageUrlValues { get; set; }
-        = new Dictionary<string, object>();
+        
 
         public override void Process(TagHelperContext context,
         TagHelperOutput output)
@@ -40,9 +43,6 @@ namespace SportsStore.Infrastructure
                 TagBuilder tag = new TagBuilder("a");
                 PageUrlValues["productPage"] = i;
                 tag.Attributes["href"] = urlHelper.Action(PageAction, PageUrlValues);
-
-                tag.Attributes["href"] = urlHelper.Action(PageAction,
-                new { productPage = i });
                 if (PageClassesEnabled)
                 {
                     tag.AddCssClass(PageClass);
