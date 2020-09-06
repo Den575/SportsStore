@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="SportsStore20200904223122" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="SportsStore20200906112159" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kursi\\source\\repos\\SportsStore\\SportsStore\\SportsStore\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

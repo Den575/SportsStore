@@ -76,6 +76,10 @@ C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcor
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.TagHelpers.input.cache
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.TagHelpers.output.cache
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.RazorCoreGenerate.cache
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\Cart.cshtml.g.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\_CartLayout.cshtml.g.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs

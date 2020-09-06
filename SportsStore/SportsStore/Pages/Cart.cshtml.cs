@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using SportsStore.Infrastructure;
+using SportsStore.Models;
+
+namespace SportsStore.Pages
+{
+    public class CartModel : PageModel
+    {
+            private ApplicationContext db;
+            public CartModel(ApplicationContext repo)
+            {
+                db = repo;
+            }
+            public Cart Cart { get; set; }
+            public string ReturnUrl { get; set; }
+            public void OnGet(string returnUrl)
+            {
+                ReturnUrl = returnUrl ?? "/";
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+            }
+            public IActionResult OnPost(long productId, string returnUrl)
+            {
+                Product product = db.Products
+                .FirstOrDefault(p => p.ProductID == productId);
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
+                Cart.AddItem(product, 1);
+                HttpContext.Session.SetJson("cart", Cart);
+                return RedirectToPage(new { returnUrl = returnUrl });
+            }
+    }
+}

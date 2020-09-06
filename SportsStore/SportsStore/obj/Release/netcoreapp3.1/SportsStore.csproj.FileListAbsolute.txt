@@ -91,3 +91,8 @@ C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Release\netc
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Release\netcoreapp3.1\Program.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Release\netcoreapp3.1\Startup.cs
 C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\bin\Release\netcoreapp3.1\Views\Shared\ProductSummary.cshtml.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Release\netcoreapp3.1\Razor\Pages\Cart.cshtml.g.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Release\netcoreapp3.1\Razor\Pages\_CartLayout.cshtml.g.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Release\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Release\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\kursi\source\repos\SportsStore\SportsStore\SportsStore\obj\Release\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs

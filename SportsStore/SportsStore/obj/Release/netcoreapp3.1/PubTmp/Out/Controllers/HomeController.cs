@@ -20,7 +20,7 @@ namespace SportsStore.Controllers
 
         public int PageSize = 4;
 
-        public IActionResult Index(int productPage = 1)
+        public IActionResult Index(string category, int productPage = 1)
         {
             if (productPage<1)
             {
@@ -29,14 +29,17 @@ namespace SportsStore.Controllers
             return View(new ProductsListViewModel
             {
                 Products = db.Products.OrderBy(p => p.ProductID)
+                .Where(p => category == null || p.Category == category)
                 .Skip((productPage - 1) * PageSize).Take(PageSize),
                 PagingInfo = new PageInfo
                 {
                     CurrentPage = productPage,
                     ItemsPerPage = PageSize,
-                    TotalItems = db.Products.Count()
-                }
-            });
+                    TotalItems = category == null ?
+                    db.Products.Count() : db.Products.Where(e => e.Category == category).Count()
+                },
+                CurrentCategory = category
+            }) ;
         }
     }
 }
